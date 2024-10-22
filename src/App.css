@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+img{
+  width: 300px;
+}
+.Mobile{
+  background-color: ghostwhite;
+  border: 5px solid goldenrod;
+  width: 350px;
+  border-radius: 20px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px red;
+  display: inline-block;
+  margin: 8px;
+}
+.backgroundimge{
+  background-image: url("https://images.inc.com/uploaded_files/image/1920x1080/getty_1128611427_2000114820009280160_390827.jpg");
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
